@@ -1,0 +1,135 @@
+body
+{
+    background-color: white;
+    margin: 0px;
+}
+p
+{
+    font-size: 18px;
+}
+a
+{
+    color: rgb(43, 100, 222);
+    text-decoration: none;
+    font-size: large;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+a:hover 
+{
+    color: black
+}
+div.header
+{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    height: 50px;
+    padding: 4px 0px 0px 8px;
+    border-bottom: 3px solid black;
+}
+.element
+{
+    margin-right: 25px;
+    text-align: center;
+}
+button.header:hover
+{
+    background-color: rgb(208, 208, 208);
+}
+button.header:active
+{
+    box-shadow:  -1px -1px 3px black;
+    padding: 0px 0px 0px 0px;
+    
+}
+img.button
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+div.info
+{
+    text-align: center;
+}
+div.cols
+{
+    width: 30%;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid  black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+
+}
+
+button.cols
+{
+    width: 30%;
+    margin: 8px;
+    display: inline-block;
+    background-color:white;
+    border: 1px solid  black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+
+}
+button.cols:hover
+{
+    background-color: #dfdfdf;;
+    
+}
+button.cols:active
+{
+    box-shadow: -1px -1px 3px black;
+    padding: 0px 10px 10px 0px;
+}
+img.cols
+{
+    height: 256px;
+}
+div.poster
+{
+    height: 550px;
+   /* background-color: #88e5ed */
+   background: linear-gradient(to right bottom, rgb(251, 255, 0) ,rgb(195, 255, 0));
+}
+h1.poster
+{
+    left: 100px;
+    position: absolute;
+    top: 110px;
+}
+p.poster
+{
+    left: 120px;
+    position: absolute;
+    top: 170px;
+}
+button.poster
+{
+    left: 200px;
+    position: absolute;
+    top: 500px; 
+    height: 30px;
+    width: 100px;
+}
+img.poster
+{
+width: 30%;
+position: absolute;
+right: 80px;
+}
+img.gym
+{
+width: 90%;
+position: relative;
+margin-left: 5%;
+margin-right: 5%;
+}
